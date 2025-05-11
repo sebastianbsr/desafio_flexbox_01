@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* border: 2px solid orange; */
+
+    font-family: "Roboto", sans-serif;
+    display: flex;
+}
+
+.nav-bar {
+    border: 2px solid lightgray;
+
+    min-width: 20%;
+    height: 100vh;
+}
+
+.contenido-principal {
+    /* border: 2px solid lightseagreen; */
+    background-color: #E8EBE4 ;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.img-net {
+    padding-bottom: 20px;
+    border-radius: 5%;
+}
+.titulo_h2 {
+    font-weight: 400;
+    font-size: 52px;
+}
+.titulo_h3 {
+    font-weight: 400;
+}
+.parrafo-chat {
+    font-weight: 100;
+}
+.contenido-principal p {
+    line-height: 25px;
+    font-weight: 100;
+}
+
+.header-nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maria {
+    color: black;
+}
+
+.img-maria {
+    border-radius: 50%;
+}
+.nav-item_texto {
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.nav-item_texto p {
+    color: #BEC1BB;
+    font-weight: 100;
+}
+.caja-item {
+    border: 1px solid blue;
+    display: flex;
+}
+.nav-item_iconos {
+    padding-right: 10px;
+    display: flex;
+    gap: 20px;
+}
+.nav-item_iconos:hover {
+    cursor: pointer;
+}
+
+.header-boton {
+    border-top: 1px solid #BEC1BB;
+    border-bottom: 1px solid #BEC1BB;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    height: 15px;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 1%;
+    background-color: #A491D2;
+    color: white;
+    transition: .7s;
+}
+.boton:hover {
+    background-color: #CDC3E6;
+}
+
+
+
+.box-chat {
+    height: 80px;
+    border-bottom: 1px solid #BEC1BB;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    padding-left: 10px;
+}
+.img-chat {
+    border-radius: 50%;
+}
